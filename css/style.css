@@ -1,0 +1,238 @@
+/* common css strat */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+/* common css end */
+/* Header css start */
+header {
+    /* border: 1px solid black; */
+    padding: 15px 0;
+}
+
+.wrraper {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid black; */
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    /* border: 1px solid red; */
+}
+
+.logo img {
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    width: 55%;
+    margin: 16px 0;
+    /* border: 1px solid red; */
+}
+
+.menu ul {
+    float: right;
+    overflow: hidden;
+}
+
+.menu ul li {
+    list-style: none;
+    float: left;
+
+}
+
+.menu ul li:last-child a {
+    padding-right: 0;
+}
+
+.menu ul li a {
+    color: #0F2656;
+    text-decoration: none;
+    padding: 5.4px 25px;
+    display: inline-block;
+    font-size: 17px;
+    border: 1px solid white;
+
+}
+
+.menu ul li a:hover {
+    color: #488BFF;
+    border: 1px solid #488BFF;
+}
+
+
+
+/* Header css end */
+/* banner css start */
+.bannar {
+    /* border: 1px solid darkred; */
+    margin: 70px 0;
+}
+
+.wrraper2 {
+    width: 60%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+
+.b_content {
+    text-align: center;
+}
+
+.b_content h1 {
+    font-size: 60px;
+    color: #0F2656;
+}
+
+.b_h1 {
+    margin: 0%;
+    line-height: 80px;
+}
+
+.b_h1 span {
+    color: #488BFF;
+}
+
+.b_content p {
+    margin: 16px 0;
+    font-size: 18px;
+    color: #0F2656;
+}
+
+/* .b_text {} */
+
+.b_img {
+    margin: 0 auto;
+    /* border: 1px solid gray; */
+    width: 75%;
+}
+
+.b_img img {
+    width: 100%;
+}
+
+/* banner css end */
+
+/* success  css start */
+.success {
+    /* border: 1px solid wheat; */
+    padding: 60px 0;
+}
+
+.s_content {
+    overflow: hidden;
+}
+
+.s_left {
+    /* border: 1px solid black; */
+    width: 44%;
+    float: left;
+    text-align: right;
+    padding: 0 20px 0 36px;
+}
+
+.s_left h2 {
+    font-size: 50px;
+    margin: 0;
+    color: #F15767;
+}
+
+.s_left p {
+    margin: 0;
+    font-size: 18.2px;
+    line-height: 30px;
+    color: #0F2656;
+}
+
+.s_right {
+    /* border: 1px solid rgb(3, 1, 1); */
+    width: 45%;
+    float: right;
+    padding: 0px 36px 0px 8px;
+}
+
+
+.s_right h1 {
+    font-size: 47px;
+    color: #0F2656;
+    margin: 0;
+    line-height: 55px;
+}
+
+/* success  css end */
+/* service  css start */
+/* .service {} */
+
+/* .s_wrraper {} */
+
+.s_single {
+    width: 27.5%;
+    /* border: 1px solid rebeccapurple; */
+    padding: 61px 25.5px;
+    float: left;
+    margin-right: 45px;
+}
+
+.s_single:last-child {
+    margin-right: 0;
+}
+
+.arman {
+    background-color: #FDEBED;
+
+}
+
+.shahriar {
+    background-color: #EBF9F4;
+}
+
+.pritom {
+    background-color: #FFF7E8;
+}
+
+
+/* .s_img {} */
+
+.s_img img {
+    width: 100%;
+}
+
+.s_h2 {
+    color: rgb(15, 38, 86);
+    margin: 16px 0;
+    font-size: 24px;
+}
+
+.s_text {
+    color: #0F2656;
+    font-size: 21px;
+    line-height: 29px;
+    margin: 0;
+}
+
+
+
+/* service  css end */
+/* footer  css start */
+
+footer {
+    background-color: #488BFF;
+    padding: 27px;
+    margin-top: 64px;
+    font-size: 19px;
+}
+
+.f_text {
+    text-align: center;
+    margin: 0;
+
+}
+
+/* footer  css end */
